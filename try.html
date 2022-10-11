@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="iewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="try.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box">
+            <div class="popupWrap" id="popup">
+                <div class="addpage" id="addpage">
+                    <div id="closepagebtn" class="closepagebtn">x</div>
+                    <div class="entervalue">
+                        <div class="inputdata">
+                            <div>
+                                <label  class="red"  for="course">course</label>
+                                <input type="text" id="course" placeholder="13th" >
+                            </div>
+                            <div>
+                                <label for="subject">subject</label>
+                                <input type="text" id="subject" placeholder="science">
+                            </div>
+                            <div>
+                                <label for="marks">marks</label>
+                                <input type="text" id="marks" placeholder="90" >
+                            </div>
+                            <div>
+                                <label for="year">year</label>
+                                <input type="text" id="year" placeholder="2022" >
+                            </div>
+                        </div>
+                        <div class="submitdata">
+                            <button type="submit" class="submit" id="submitform">submit</button>
+                            <button type="submit" class="updatebtn" id="update">update</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="header" class="head">
+                <span id="addcourse" class="add">+ </span>Ravi Yadav
+            </div>
+            <div class="buttonbox">
+                <div id="results" class="result"><div id="deletebtn" class="delete"></div></div>
+                
+            </div>
+            <aside id="screen" class="display">
+                <span  id="closebtn" class="cross">x</span>
+                <div class="degreeheading">Course detail</div>
+                <div id="degreedetail"></div>
+            </aside>
+        </div>
+    </div>
+    <script src="try.js" ></script> 
+</body>
+</html>
